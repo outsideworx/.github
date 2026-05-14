@@ -11,11 +11,11 @@ A self-hosted platform running multiple static websites and a shared backend on 
 | Component | Stack | Description |
 |-----------|-------|-------------|
 | Spring Boot API | services | Java 25 backend with OAuth2 admin portal and token-based API auth |
-| PostgreSQL | services | Persistent data store for all client content |
+| PostgreSQL | services | Persistent data store for all client data |
 | Traefik | services | Reverse proxy with automatic TLS via Let's Encrypt |
 | Authelia | services | OIDC identity provider for admin portal and Grafana |
 | Monitoring | services | Prometheus, Grafana, Loki, Promtail, ntfy |
-| Apache Sites | sites | Static websites with API proxy, rate limiting, security headers, and optional cookie-based password gate for WIP demos |
+| Apache Sites | sites | Single-Page web applications for clients |
 
 Each site is built from a shared Dockerfile into its own Apache httpd container. Sites that need dynamic content proxy API calls to the backend via internal networking. All sites get output rate limiting, request timeouts, IP blacklisting, and restrictive security headers out of the box. Work-in-progress sites can be protected with a lightweight cookie-based password gate without requiring full OAuth2.
 
