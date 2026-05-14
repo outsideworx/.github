@@ -50,8 +50,8 @@ Full platform documentation lives in the [`.kiro`](https://github.com/outsidewor
 
 | Document | Purpose |
 |----------|---------|
-| [Conventions](https://github.com/outsideworx/.kiro/blob/main/steering/conventions.md) | Coding conventions — ordering rules, Java style, YAML structures, tests |
-| [Notes](https://github.com/outsideworx/.kiro/blob/main/steering/notes.md) | Persistent instructions that generate a local changelog of decisions |
+| [Coding Conventions](https://github.com/outsideworx/.kiro/blob/main/steering/coding-conventions.md) | Coding conventions — ordering rules, Java style, YAML structures, tests |
+| [Ways of Working](https://github.com/outsideworx/.kiro/blob/main/steering/ways-of-working.md) | How the agent should behave — ask before acting, minimal responses, changelog management |
 
 ## Sites
 
