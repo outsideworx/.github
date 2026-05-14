@@ -15,9 +15,11 @@ A self-hosted platform running multiple static websites and a shared backend on 
 | Traefik | services | Reverse proxy with automatic TLS via Let's Encrypt |
 | Authelia | services | OIDC identity provider for admin portal and Grafana |
 | Monitoring | services | Prometheus, Grafana, Loki, Promtail, ntfy |
-| Apache Sites | sites | Static websites with API proxy to the backend |
+| Apache Sites | sites | Static websites with API proxy, rate limiting, security headers, and optional cookie-based password gate for WIP demos |
 
-For the full compose structure and deployment details, see the [services deployment documentation](https://github.com/outsideworx/.kiro/blob/main/prompts/outsideworx/services-deployment.md).
+Each site is built from a shared Dockerfile into its own Apache httpd container. Sites that need dynamic content proxy API calls to the backend via internal networking. All sites get output rate limiting, request timeouts, IP blacklisting, and restrictive security headers out of the box. Work-in-progress sites can be protected with a lightweight cookie-based password gate without requiring full OAuth2.
+
+For the full compose structure and deployment details, see the [services](https://github.com/outsideworx/.kiro/blob/main/prompts/outsideworx/services-deployment.md) and [sites](https://github.com/outsideworx/.kiro/blob/main/prompts/outsideworx/sites-deployment.md) deployment documentation.
 
 ## Documentation
 
@@ -53,6 +55,3 @@ Full platform documentation lives in the [`.kiro`](https://github.com/outsidewor
 | [Coding Conventions](https://github.com/outsideworx/.kiro/blob/main/steering/coding-conventions.md) | Coding conventions — ordering rules, Java style, YAML structures, tests |
 | [Ways of Working](https://github.com/outsideworx/.kiro/blob/main/steering/ways-of-working.md) | How the agent should behave — ask before acting, minimal responses, changelog management |
 
-## Sites
-
-See the [sites deployment documentation](https://github.com/outsideworx/.kiro/blob/main/prompts/outsideworx/sites-deployment.md) for the current list of deployed sites and their domains.
