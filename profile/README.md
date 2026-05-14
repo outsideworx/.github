@@ -51,7 +51,7 @@ Full platform documentation lives in the [`.kiro`](https://github.com/outsidewor
 | Document | Purpose |
 |----------|---------|
 | [Conventions](https://github.com/outsideworx/.kiro/blob/main/steering/conventions.md) | Coding conventions — ordering rules, Java style, YAML structures, tests |
-| [Changelog](https://github.com/outsideworx/.kiro/blob/main/steering/changelog.md) | Running log of architectural decisions and changes |
+| [Notes](https://github.com/outsideworx/.kiro/blob/main/steering/notes.md) | Persistent instructions that generate a local changelog of decisions |
 
 ## Sites
 
