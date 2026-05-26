@@ -1,8 +1,10 @@
 # Outside Worx
 
-At Outside Worx, we believe that every business deserves a digital presence as distinctive as its identity. Our team combines the expertise of a professional artist and a computer scientist to deliver websites that are both visually striking and technically refined.
+At Outside Worx, we believe that every business deserves a digital presence as distinctive as its identity. Our team combines the expertise of a professional artist and a computer scientist to deliver websites that are both visually striking and technically refined. Guided by our lead designer's extensive artistic background, each project is crafted with attention to detail and a deep understanding of visual engagement. Every design is created to capture attention and communicate brand values with clarity and impact.
 
-Each project is crafted with attention to detail and a deep understanding of visual engagement — designed to capture attention and communicate brand values with clarity and impact. On the technical side, our engineering ensures reliability, performance, and security. Every website includes a user-friendly admin portal, real-time monitoring and alerting, professional-grade security, and SEO consulting.
+On the technical side, every site runs on infrastructure we built from scratch — isolated containers, encrypted connections, centralized logging, live analytics, and a custom admin portal with secure authentication. No prebuilt templates, no shared hosting, no third-party page builders.
+
+AI-enabled from code to canvas — but never generic. We use AI to move faster and think bigger, while every pixel remains intentional and built for your needs. The result is something no template could produce: a site that is both AI-powered and entirely yours.
 
 ## Architecture
 
