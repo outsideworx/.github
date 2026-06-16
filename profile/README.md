@@ -31,6 +31,7 @@ Full platform documentation lives in the [`.kiro`](https://github.com/outsidewor
 
 | Document | Covers |
 |----------|--------|
+| [API Reference](https://github.com/outsideworx/.kiro/blob/main/prompts/outsideworx/api.md) | REST endpoint signatures, response shapes, pagination, caching, `/api/` vs `/api/cache/` |
 | [Spring Boot](https://github.com/outsideworx/.kiro/blob/main/prompts/outsideworx/spring-boot.md) | Java 25 / Spring Boot 3.5 backend — package structure, coding conventions, client pattern, testing |
 | [Authentication](https://github.com/outsideworx/.kiro/blob/main/prompts/outsideworx/auth.md) | Authelia OIDC for admin portal, token-based API auth for sites |
 | [Services Deployment](https://github.com/outsideworx/.kiro/blob/main/prompts/outsideworx/services-deployment.md) | Docker Swarm stack for backend, PostgreSQL, monitoring, and supporting services |
@@ -49,6 +50,7 @@ Full platform documentation lives in the [`.kiro`](https://github.com/outsidewor
 | [New Client](https://github.com/outsideworx/.kiro/blob/main/skills/new-client/SKILL.md) | Onboarding a new client — Authelia, API wiring, Spring Boot code, compose config |
 | [Admin Portal](https://github.com/outsideworx/.kiro/blob/main/skills/admin-portal/SKILL.md) | Creating or modifying client admin views (Thymeleaf templates, ModelVisitor controllers) |
 | [Apache httpd](https://github.com/outsideworx/.kiro/blob/main/skills/httpd/SKILL.md) | Modifying the shared sites Dockerfile, security headers, proxy config, or rate limits |
+| [Callback](https://github.com/outsideworx/.kiro/blob/main/skills/callback/SKILL.md) | Adding contact form callback to a client (email notification + DB persistence) |
 | [Liquibase](https://github.com/outsideworx/.kiro/blob/main/skills/liquibase/SKILL.md) | Creating or modifying database tables, sequences, or triggers |
 
 ### Steering
