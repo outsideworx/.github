@@ -48,15 +48,17 @@ Full platform documentation lives in the [`.kiro`](https://github.com/outsidewor
 | Skill | Use when |
 |-------|----------|
 | [New Client](https://github.com/outsideworx/.kiro/blob/main/skills/new-client/SKILL.md) | Onboarding a new client — Authelia, API wiring, Spring Boot code, compose config |
+| [New Site](https://github.com/outsideworx/.kiro/blob/main/skills/new-site/SKILL.md) | Scaffolding a new site repo — file structure, page patterns, navigation, API fetch |
 | [Admin Portal](https://github.com/outsideworx/.kiro/blob/main/skills/admin-portal/SKILL.md) | Creating or modifying client admin views (Thymeleaf templates, ModelVisitor controllers) |
 | [Apache httpd](https://github.com/outsideworx/.kiro/blob/main/skills/httpd/SKILL.md) | Modifying the shared sites Dockerfile, security headers, proxy config, or rate limits |
 | [Callback](https://github.com/outsideworx/.kiro/blob/main/skills/callback/SKILL.md) | Adding contact form callback to a client (email notification + DB persistence) |
+| [GitHub](https://github.com/outsideworx/.kiro/blob/main/skills/github/SKILL.md) | Creating a new site repo, wiring dispatch workflows, registering in the build pipeline |
 | [Liquibase](https://github.com/outsideworx/.kiro/blob/main/skills/liquibase/SKILL.md) | Creating or modifying database tables, sequences, or triggers |
+| [SEO](https://github.com/outsideworx/.kiro/blob/main/skills/seo/SKILL.md) | robots.txt, sitemap.xml, metrics.txt, and HTML meta tags for a new or existing site |
 
 ### Steering
 
 | Document | Purpose |
-|----------|---------|
+|----------|---------| 
 | [Coding Conventions](https://github.com/outsideworx/.kiro/blob/main/steering/coding-conventions.md) | Coding conventions — ordering rules, Java style, YAML structures, tests |
 | [Ways of Working](https://github.com/outsideworx/.kiro/blob/main/steering/ways-of-working.md) | How the agent should behave — ask before acting, minimal responses, changelog management |
-
